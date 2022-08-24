@@ -17,18 +17,20 @@ const Features = () => {
       width: '50%',
       margin: '0 auto',
       marginTop: '60px',
+      border: '5px solid rgb(180 83 9)',
+      borderRadius: '15px',
 
   }}>
     <div onClick={()=> setIsOpen(!isOpen)} className=" text-red-400 text-6xl hover:text-7xl duration-300 flex justify-center ">
          <BsPlayCircleFill className='mt-44 cursor-pointer'></BsPlayCircleFill>
     </div>
     </div>
-     <div className="flex mt-14">
-     <div className="ml-96 ">
+     <div className="flex mt-14 justify-center gap-44">
+     <div className=" ">
       <p className="bg-red-500 w-20 h-1 my-4"></p>
       <h1 className="text-3xl font-bold">The Better Way to <br /> Start Yoga</h1>
     </div>
-    <div className="ml-44 ">
+    <div className="">
       <p className="font-bold"><small>Practice Anywhere,Anytime,Explore a new a way <br /> to exercise and learn more about yourself. <br /> We are providing the best.</small></p>
       <button className="bg-orange-400 px-8 py-2 hover:bg-amber-400 duration-300 rounded text-white font-bold mr-6 mt-6 ">Get Started</button>
     </div>

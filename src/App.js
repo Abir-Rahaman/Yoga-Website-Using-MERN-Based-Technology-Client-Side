@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import Facts from './components/Facts';
 import Features from './components/Features';
 import Courses from './components/Courses';
+import Pricing from './components/Pricing';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
          <Facts></Facts>
          <Features></Features>
          <Courses></Courses>
+         <Pricing></Pricing>
     </div>
   );
 }

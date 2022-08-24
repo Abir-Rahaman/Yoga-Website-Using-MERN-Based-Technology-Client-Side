@@ -7,7 +7,7 @@ import {FaStarHalfAlt} from "react-icons/fa"
 
 const Courses = () => {
   return (
-    <div className=" mt-24">
+    <div className=" mt-24 ">
       <div className="text-center ">
         <h1 className="font-bold text-4xl my-4 ">Popular Courses</h1>
         <p className="font-bold text-slate-400">
@@ -60,9 +60,11 @@ const Courses = () => {
           <small className="inline cursor-pointer hover:text-red-400 font-bold  text-slate-400  bg-zinc-900 px-4 py-1 rounded-full">Get Stared</small>
           </div>
           </div>
-    
         </div>
       
+      </div>
+      <div className="flex justify-center mt-10">
+      <button className="bg-orange-400 px-8 py-2 hover:bg-amber-400 duration-300 rounded text-white font-bold mr-6 mt-6 ">Browse ALL</button>
       </div>
     </div>
   );
