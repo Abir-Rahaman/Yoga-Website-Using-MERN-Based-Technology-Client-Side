@@ -11,36 +11,43 @@ const Pricing = () => {
         </p>
       </div>
       <div className="flex justify-center gap-24 my-20">
-        <div className="px-4 py-20 bg-white">
-          <p className='text-center text-xl font-bold'>Single Yoga Class</p>
-          <p className='text-center my-6 font-bold'>$15.</p>
-          <p className='text-center font-bold mb-6'><small>Discover Your Class!</small></p>
+        <div className=" bg-white pb-8">
+          <div className="bg-orange-400 text py-2">
+          <p className='text-center text-white text-xl font-bold mt-8'>Single Yoga Class</p>
+          <p className='text-center text-white my-6 font-bold'>$15.</p>
+          </div>
+          <p className='text-center font-bold mt-14 mb-6'><small>Discover Your Class!</small></p>
           <p ><small className='flex items-center gap-2 font-bold my-2  ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span  >Pay as you go</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Perfect fot non-residence</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold my-2 ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Discover Your Class!</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Access to all classes.</span></small></p>
-          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mr-6 mt-12">Get Started</button>
+          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mx-6 mt-12">Get Started</button>
         </div>
-        <div className="px-4 py-20 bg-white">
-          <p className='text-center text-xl font-bold'>Single Yoga Class</p>
-          <p className='text-center my-6 font-bold '>$15.</p>
-          <p className='text-center font-bold mb-6'><small>Discover Your Class!</small></p>
-          <p ><small className='flex items-center gap-2 font-bold my-2 ml-8' > <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span  >Pay as you go</span></small></p>
+        <div className=" bg-white pb-8">
+          <div className="bg-orange-400 text py-2">
+          <p className='text-center text-white text-xl font-bold mt-8'>Single Yoga Class</p>
+          <p className='text-center text-white my-6 font-bold'>$15.</p>
+          </div>
+          <p className='text-center font-bold mt-14 mb-6'><small>Discover Your Class!</small></p>
+          <p ><small className='flex items-center gap-2 font-bold my-2  ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span  >Pay as you go</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Perfect fot non-residence</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold my-2 ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Discover Your Class!</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Access to all classes.</span></small></p>
-          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mr-6 mt-12">Get Started</button>
+          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mx-6 mt-12">Get Started</button>
         </div>
-        <div className="px-4 py-20 bg-white">
-          <p className='text-center text-xl font-bold'>Single Yoga Class</p>
-          <p className='text-center my-6 font-bold'>$15.</p>
-          <p className='text-center font-bold mb-6'><small>Discover Your Class!</small></p>
-          <p ><small className='flex items-center gap-2 font-bold my-2 ml-8' > <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span  >Pay as you go</span></small></p>
+        <div className=" bg-white pb-8">
+          <div className="bg-orange-400 text py-2">
+          <p className='text-center text-white text-xl font-bold mt-8'>Single Yoga Class</p>
+          <p className='text-center text-white my-6 font-bold'>$15.</p>
+          </div>
+          <p className='text-center font-bold mt-14 mb-6'><small>Discover Your Class!</small></p>
+          <p ><small className='flex items-center gap-2 font-bold my-2  ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span  >Pay as you go</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Perfect fot non-residence</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold my-2 ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Discover Your Class!</span></small></p>
           <p ><small className='flex items-center gap-2 font-bold ml-8'> <BsFillArrowRightCircleFill className='text-red-500'></BsFillArrowRightCircleFill> <span>Access to all classes.</span></small></p>
-          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mr-6 mt-12">Get Started</button>
+          <button className="bg-orange-400 px-24 py-2  hover:bg-amber-400 duration-300 rounded text-white font-bold mx-6 mt-12">Get Started</button>
         </div>
+        
       </div>
     </div> 
   )
