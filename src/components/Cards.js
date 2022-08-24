@@ -12,10 +12,10 @@ const Cards = () => {
       backgroundSize: 'cover',
       height: '250px',
   }}>
-    <div className="lg:flex lg:gap-12 mt-64 lg:mt-20 lg:justify-center  ">
-       <div  style={{border: '2px solid #308D7C'}}  className="bg-white p-4 rounded-xl mt-[-80px] w-64 ">
+    <div className="lg:flex lg:gap-12 mt-20 lg:justify-center  ">
+       <div  style={{border: '2px solid #308D7C'}}  className="bg-white p-4 rounded-xl mt-[-80px] lg:w-64 ">
           <div className="flex items-center gap-8 ">
-          <h1 className="text-xl font-bold">Make Your <br /> Own Plan For <br /> Yoga</h1>
+          <h1 className="text-xl font-bold text-center">Make Your <br /> Own Plan For <br /> Yoga</h1>
           <h1  className="text-5xl text-gray-500 font-bold ml-8">1</h1>
           </div>
           <img className="pt-4" src={img1} alt="" />
@@ -35,7 +35,7 @@ const Cards = () => {
         <p className="text-5xl text-gray-500 font-bold inline ml-24 ">3 </p>
        </div>
         <p className="py-2">We're boosting online yoga by enabling anyone in the world to learn from the best.</p> 
-        <button className="font-bold">Read More</button>
+        <button className="font-bold hover:text-slate-600  duration-500">Read More</button>
        </div>
        <div className="">
        <img className="ml-8" src={img3} alt="" />
