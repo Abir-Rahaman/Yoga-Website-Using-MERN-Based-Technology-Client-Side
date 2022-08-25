@@ -6,6 +6,7 @@ import Facts from './components/Facts';
 import Features from './components/Features';
 import Courses from './components/Courses';
 import Pricing from './components/Pricing';
+import Newsletter from './components/Newsletter';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
          <Features></Features>
          <Courses></Courses>
          <Pricing></Pricing>
+         <Newsletter></Newsletter>
     </div>
   );
 }
