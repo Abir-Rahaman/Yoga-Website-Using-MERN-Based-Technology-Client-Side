@@ -5,7 +5,7 @@ import Header from './Header';
 
 const Hero = () => {
   return (
-    <div style={{
+    <div  style={{
       background:`url(${bg})`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition:'right',

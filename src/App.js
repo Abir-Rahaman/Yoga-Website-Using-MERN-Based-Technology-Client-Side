@@ -7,6 +7,7 @@ import Features from './components/Features';
 import Courses from './components/Courses';
 import Pricing from './components/Pricing';
 import Newsletter from './components/Newsletter';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
          <Courses></Courses>
          <Pricing></Pricing>
          <Newsletter></Newsletter>
+         <Contact></Contact>
     </div>
   );
 }
